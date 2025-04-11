@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Disclaimer Generator - Create AdSense Approved Legal Pages Instantly | HafizVerse</title>
+    <meta name="description" content="Create professional, Generate professional, SEO-friendly disclaimer pages for your website in seconds. Our free tool creates AdSense approved legal pages with animations. No coding required!, animated, SEO-optimized disclaimer pages for your website">
+    <meta name="keywords" content="disclaimer generator,disclaimer generator, disclaimer generator free, disclaimer generator online, disclaimer generator info,adsense disclaimer generator
+legal pages, website disclaimer, free disclaimer generator, AdSense approved, SEO disclaimer">
+    <meta name="author" content="HafizVerse">
+    <link rel="canonical" href="https://disclaimer.hafizverse.online">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://hafizverse.online/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #8e2de2;
+            --secondary: #4a00e0;
+            --accent: #ff6b6b;
+            --text: #333;
+            --light-text: #555;
+            --bg: #f5f7ff;
+            --card: #fff;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+            --glow: 0 0 20px rgba(142, 45, 226, 0.3);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+            z-index: 0;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .form-section, .preview-section {
+            background: var(--card);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: all 0.5s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .form-section:hover, .preview-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .section-title {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px dashed #eee;
+            display: flex;
+            align-items: center;
+            font-family: 'Playfair Display', serif;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--accent);
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--primary);
+            transition: all 0.3s;
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s;
+            background: rgba(255,255,255,0.8);
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(142, 45, 226, 0.2);
+            background: white;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
+            z-index: -1;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(142, 45, 226, 0.3);
+        }
+        
+        .preview-container {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 1rem;
+            height: 600px;
+            overflow-y: auto;
+            background: white;
+            transition: all 0.5s;
+        }
+        
+        .preview-container:hover {
+            box-shadow: inset 0 0 20px rgba(142, 45, 226, 0.1);
+        }
+        
+        .tabs {
+            display: flex;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+            position: relative;
+        }
+        
+        .tabs::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            opacity: 0.2;
+        }
+        
+        .tab {
+            padding: 0.5rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .tab:hover {
+            color: var(--primary);
+        }
+        
+        .tab.active {
+            border-bottom: 3px solid var(--primary);
+            color: var(--primary);
+            font-weight: 500;
+        }
+        
+        #generatedCode {
+            width: 100%;
+            height: 500px;
+            font-family: 'Courier New', monospace;
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: #f8f9fa;
+            resize: none;
+            transition: all 0.3s;
+        }
+        
+        #generatedCode:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(142, 45, 226, 0.1);
+        }
+        
+        /* Special Elements */
+        .adsense-requirements {
+            background: rgba(74, 0, 224, 0.05);
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        .adsense-requirements h3 {
+            color: var(--secondary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .adsense-requirements ul {
+            padding-left: 1.5rem;
+        }
+        
+        .adsense-requirements li {
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        
+        .adsense-requirements li::before {
+            content: "•";
+            color: var(--primary);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        /* Floating elements */
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        /* Tooltips */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.8rem;
+        }
+        
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        /* Progress indicator */
+        .progress-container {
+            width: 100%;
+            height: 5px;
+            background: #eee;
+            border-radius: 5px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            width: 0;
+            transition: width 0.5s;
+        }
+        
+        /* Animations */
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes flipIn {
+            0% { transform: rotateX(90deg); opacity: 0; }
+            100% { transform: rotateX(0); opacity: 1; }
+        }
+        
+        @keyframes floatUp {
+            0% { transform: translateY(50px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes glow {
+            0% { box-shadow: 0 0 5px var(--primary); }
+            50% { box-shadow: 0 0 20px var(--primary); }
+            100% { box-shadow: 0 0 5px var(--primary); }
+        }
+        
+        @keyframes slideInRight {
+            from { transform: translateX(50px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes rotateXIn {
+            from { transform: rotateX(90deg); opacity: 0; }
+            to { transform: rotateX(0); opacity: 1; }
+        }
+        
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to { 
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-20px);}
+            60% {transform: translateY(-10px);}
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1><i class="fas fa-shield-alt floating" style="animation-delay: 0.2s;"></i> HafizVerse Disclaimer Generator</h1>
+            <p style="font-size: 1.1rem;">Create professional, animated, SEO-optimized disclaimer pages for AdSense approval</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
+                <span style="animation: pulse 2s infinite; background: rgba(255,255,255,0.2); border-radius: 30px; padding: 5px 15px; font-size: 0.9rem;">
+                    <i class="fas fa-check-circle"></i> AdSense Ready
+                </span>
+                <span style="animation: pulse 2s infinite 0.5s; background: rgba(255,255,255,0.2); border-radius: 30px; padding: 5px 15px; font-size: 0.9rem;">
+                    <i class="fas fa-bolt"></i> Animated Design
+                </span>
+            </div>
+        </div>
+    </div>
+    
+<div style="text-align: center; margin-top: 2rem; padding: 1rem; border-top: 1px solid #eee;">
+    <h3>More Free Tools by HafizVerse</h3>
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://tools.hafizverse.online" style="color: var(--primary); text-decoration: none;">
+            <i class="fas fa-tools"></i> All Tools
+        </a>
+        <a href="https://privacy.hafizverse.online" style="color: var(--primary); text-decoration: none;">
+            <i class="fas fa-user-shield"></i> Privacy Policy Generator
+        </a>
+        <a href="https://terms.hafizverse.online" style="color: var(--primary); text-decoration: none;">
+            <i class="fas fa-file-contract"></i> Terms & Conditions Generator
+        </a>
+        <a href="https://hafizverse.online" style="color: var(--primary); text-decoration: none;">
+            <i class="fas fa-home"></i> Homepage
+        </a>
+    </div>
+</div> 
+
+    <div class="container">
+        <div class="form-section" style="animation: slideInRight 0.8s ease-out;">
+            <h2 class="section-title"><i class="fas fa-user-edit"></i> Website Information</h2>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="formProgress"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="ownerName">Your Name/Company* <span class="tooltip"><i class="fas fa-info-circle"></i><span class="tooltiptext">Use your real name or registered company name for legal compliance</span></span></label>
+                <input type="text" id="ownerName" placeholder="Hafiz Muhammad Ali" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email* <span class="tooltip"><i class="fas fa-info-circle"></i><span class="tooltiptext">This will be displayed publicly in your disclaimer</span></span></label>
+                <input type="email" id="email" placeholder="hafizverse@gmail.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone (Optional)</label>
+                <input type="tel" id="phone" placeholder="+92 322 5815922">
+            </div>
+            
+            <div class="form-group">
+                <label for="website">Website URL* <span class="tooltip"><i class="fas fa-info-circle"></i><span class="tooltiptext">Must match your actual website domain</span></span></label>
+                <input type="url" id="website" placeholder="https://hafizverse.online" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="siteName">Website Name* <span class="tooltip"><i class="fas fa-info-circle"></i><span class="tooltiptext">This appears in the disclaimer title</span></span></label>
+                <input type="text" id="siteName" placeholder="HafizVerse" required>
+            </div>
+            
+            <h2 class="section-title"><i class="fas fa-palette"></i> Design Customization</h2>
+            
+            <div class="form-group">
+                <label for="primaryColor">Primary Color</label>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <input type="color" id="primaryColor" value="#8e2de2" style="width: 50px; height: 40px; padding: 0;">
+                    <span id="primaryColorValue">#8e2de2</span>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="secondaryColor">Secondary Color</label>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <input type="color" id="secondaryColor" value="#4a00e0" style="width: 50px; height: 40px; padding: 0;">
+                    <span id="secondaryColorValue">#4a00e0</span>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="customMessage">Custom Message (Optional) <span class="tooltip"><i class="fas fa-info-circle"></i><span class="tooltiptext">Add any special note or warning for your visitors</span></span></label>
+                <textarea id="customMessage" placeholder="Example: This website contains affiliate links..."></textarea>
+            </div>
+            
+            <div class="adsense-requirements">
+                <h3><i class="fas fa-ad"></i> AdSense Requirements</h3>
+                <ul>
+                    <li>Clear disclosure of content nature</li>
+                    <li>Contact information visible</li>
+                    <li>Limitation of liability</li>
+                    <li>External links disclaimer</li>
+                </ul>
+            </div>
+            
+            <div style="display: flex; gap: 1rem; margin-top: 1.5rem; flex-wrap: wrap;">
+                <button id="generateBtn" class="btn"><i class="fas fa-magic"></i> Generate Disclaimer</button>
+                <button id="resetBtn" class="btn" style="background: #6c757d;"><i class="fas fa-redo"></i> Reset</button>
+                <button id="previewBtn" class="btn" style="background: var(--accent);"><i class="fas fa-eye"></i> Live Preview</button>
+            </div>
+        </div>
+        
+        <div class="preview-section" style="animation: fadeInUp 0.8s ease-out;">
+            <div class="tabs">
+                <div class="tab active" data-tab="preview">Preview <i class="fas fa-desktop"></i></div>
+                <div class="tab" data-tab="code">HTML Code <i class="fas fa-code"></i></div>
+                <div class="tab" data-tab="seo">SEO Analysis <i class="fas fa-search"></i></div>
+            </div>
+            
+            <div id="previewTab" class="tab-content active">
+                <div class="preview-container" id="disclaimerPreview">
+                    <div style="text-align: center; padding: 2rem; color: #666;">
+                        <i class="fas fa-file-alt" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.5;"></i>
+                        <h3>Your Generated Disclaimer</h3>
+                        <p>Fill in your details and click "Generate" to create your custom disclaimer</p>
+                    </div>
+                </div>
+            </div>
+           
+            <div id="codeTab" class="tab-content">
+                <textarea id="generatedCode" readonly></textarea>
+                <div style="display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+                    <button id="copyBtn" class="btn"><i class="fas fa-copy"></i> Copy Code</button>
+                    <button id="downloadBtn" class="btn"><i class="fas fa-download"></i> Download HTML</button>
+                    <button id="copyTextBtn" class="btn" style="background: #28a745;"><i class="fas fa-font"></i> Copy Text Only</button>
+                </div>
+            </div>
+            
+            <div id="seoTab" class="tab-content">
+                <div class="preview-container" id="seoAnalysis" style="padding: 1.5rem;">
+                    <h3 style="color: var(--primary); margin-top: 0;"><i class="fas fa-chart-line"></i> SEO Analysis</h3>
+                    <div id="seoResults">
+                        <p style="text-align: center; color: #666; margin-top: 2rem;">
+                            Generate a disclaimer to see SEO recommendations
+                        </p>
+                    </div>
+                    <div id="seoScore" style="margin-top: 1.5rem; text-align: center; display: none;">
+                        <div style="font-size: 2rem; font-weight: bold; color: var(--primary);" id="scoreValue">0</div>
+                        <div style="font-size: 0.9rem; color: #666;">SEO Score (out of 100)</div>
+                        <div class="progress-container" style="margin: 1rem auto; max-width: 300px;">
+                            <div class="progress-bar" id="seoProgress" style="width: 0%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Color picker value display
+            document.getElementById('primaryColor').addEventListener('input', function() {
+                document.getElementById('primaryColorValue').textContent = this.value;
+            });
+            
+            document.getElementById('secondaryColor').addEventListener('input', function() {
+                document.getElementById('secondaryColorValue').textContent = this.value;
+            });
+            
+            // Form progress indicator
+            const formFields = ['ownerName', 'email', 'website', 'siteName'];
+            formFields.forEach(field => {
+                document.getElementById(field).addEventListener('input', updateProgress);
+            });
+            
+            function updateProgress() {
+                let filledFields = 0;
+                formFields.forEach(field => {
+                    if(document.getElementById(field).value.trim() !== '') {
+                        filledFields++;
+                    }
+                });
+                const progress = (filledFields / formFields.length) * 100;
+                document.getElementById('formProgress').style.width = progress + '%';
+            }
+            
+            // Tab switching
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    
+                    const tabName = tab.getAttribute('data-tab');
+                    document.querySelectorAll('.tab-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    document.getElementById(tabName + 'Tab').classList.add('active');
+                });
+            });
+            
+            // Generate button
+            document.getElementById('generateBtn').addEventListener('click', function() {
+                generateDisclaimer();
+                
+                // Animate the generate button
+                this.classList.add('bounce');
+                setTimeout(() => {
+                    this.classList.remove('bounce');
+                }, 1000);
+            });
+            
+            // Preview button
+            document.getElementById('previewBtn').addEventListener('click', function() {
+                generateDisclaimer();
+                document.querySelector('.tab[data-tab="preview"]').click();
+                
+                // Add glow effect to preview tab
+                const previewTab = document.querySelector('.tab[data-tab="preview"]');
+                previewTab.style.animation = 'glow 1s 2';
+                setTimeout(() => {
+                    previewTab.style.animation = '';
+                }, 2000);
+            });
+            
+            // Reset button
+            document.getElementById('resetBtn').addEventListener('click', function() {
+                document.getElementById('ownerName').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('phone').value = '';
+                document.getElementById('website').value = '';
+                document.getElementById('siteName').value = '';
+                document.getElementById('primaryColor').value = '#8e2de2';
+                document.getElementById('secondaryColor').value = '#4a00e0';
+                document.getElementById('customMessage').value = '';
+                document.getElementById('primaryColorValue').textContent = '#8e2de2';
+                document.getElementById('secondaryColorValue').textContent = '#4a00e0';
+                document.getElementById('formProgress').style.width = '0%';
+                
+                document.getElementById('disclaimerPreview').innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: #666;">
+                        <i class="fas fa-file-alt" style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.5;"></i>
+                        <h3>Your Generated Disclaimer</h3>
+                        <p>Fill in your details and click "Generate" to create your custom disclaimer</p>
+                    </div>
+                `;
+                document.getElementById('generatedCode').value = '';
+                
+                // Reset SEO analysis
+                document.getElementById('seoResults').innerHTML = `
+                    <p style="text-align: center; color: #666; margin-top: 2rem;">
+                        Generate a disclaimer to see SEO recommendations
+                    </p>
+                `;
+                document.getElementById('seoScore').style.display = 'none';
+                
+                // Animate reset
+                this.innerHTML = '<i class="fas fa-check"></i> Reset Complete!';
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-redo"></i> Reset';
+                }, 2000);
+            });
+            
+            // Copy buttons
+            document.getElementById('copyBtn').addEventListener('click', function() {
+                const code = document.getElementById('generatedCode');
+                code.select();
+                document.execCommand('copy');
+                
+                const copyBtn = document.getElementById('copyBtn');
+                copyBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                setTimeout(() => {
+                    copyBtn.innerHTML = '<i class="fas fa-copy"></i> Copy Code';
+                }, 2000);
+            });
+            
+            document.getElementById('copyTextBtn').addEventListener('click', function() {
+                const preview = document.getElementById('disclaimerPreview');
+                const text = preview.innerText;
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                
+                const copyTextBtn = document.getElementById('copyTextBtn');
+                copyTextBtn.innerHTML = '<i class="fas fa-check"></i> Copied Text!';
+                setTimeout(() => {
+                    copyTextBtn.innerHTML = '<i class="fas fa-font"></i> Copy Text Only';
+                }, 2000);
+            });
+            
+            // Download button
+            document.getElementById('downloadBtn').addEventListener('click', function() {
+                const code = document.getElementById('generatedCode').value;
+                if(!code.trim()) {
+                    alert('Please generate a disclaimer first');
+                    return;
+                }
+                
+                const blob = new Blob([code], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'disclaimer.html';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                
+                this.innerHTML = '<i class="fas fa-check"></i> Downloaded!';
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-download"></i> Download';
+                }, 2000);
+            });
+            
+            // Generate disclaimer function
+            function generateDisclaimer() {
+                const ownerName = document.getElementById('ownerName').value || 'Your Name';
+                const email = document.getElementById('email').value || 'your@email.com';
+                const phone = document.getElementById('phone').value || '';
+                const website = document.getElementById('website').value || 'https://yourwebsite.com';
+                const siteName = document.getElementById('siteName').value || 'YourSiteName';
+                const primaryColor = document.getElementById('primaryColor').value;
+                const secondaryColor = document.getElementById('secondaryColor').value;
+                const customMessage = document.getElementById('customMessage').value || '';
+                
+                // Generate the disclaimer HTML
+                const disclaimerHTML = generateDisclaimerHTML(
+                    ownerName, email, phone, website, siteName, 
+                    primaryColor, secondaryColor, customMessage
+                );
+                
+                // Generate the full HTML page
+                const fullHTML = generateFullHTMLPage(
+                    ownerName, email, phone, website, siteName, 
+                    primaryColor, secondaryColor, customMessage,
+                    disclaimerHTML
+                );
+                
+                // Update the preview and code
+                document.getElementById('disclaimerPreview').innerHTML = disclaimerHTML;
+                document.getElementById('generatedCode').value = fullHTML;
+                
+                // Run SEO analysis
+                runSEOAnalysis(ownerName, siteName, website, disclaimerHTML);
+            }
+            
+            // Generate disclaimer HTML function
+            function generateDisclaimerHTML(ownerName, email, phone, website, siteName, primaryColor, secondaryColor, customMessage) {
+                return `
+<div class="hafizverse-disclaimer" style="color: #333333; font-family: 'Poppins', Arial, sans-serif; margin: 0px auto; max-width: 900px; padding: 20px; perspective: 1000px;">
+
+  <!-- Animated Header -->
+  <div class="disclaimer-header" style="animation: 1.5s ease-out 0s 1 flipIn; background: linear-gradient(135deg, ${primaryColor}, ${secondaryColor}); border-radius: 15px; box-shadow: rgba(74, 0, 224, 0.3) 0px 20px 50px; color: white; margin-bottom: 40px; padding: 30px; text-align: center; transform-style: preserve-3d;">
+    <div style="transform: translateZ(30px);">
+      <h1 style="font-size: 38px; margin-bottom: 10px; text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 4px;">
+        <i class="fas fa-shield-alt" style="filter: drop-shadow(0 0 5px rgba(255,255,255,0.5));"></i> Official Disclaimer
+      </h1>
+      <p style="font-size: 18px; opacity: 0.9;">By ${ownerName} | ${siteName}</p>
+      <div style="display: flex; gap: 15px; justify-content: center; margin-top: 20px;">
+        <span style="animation: 2s ease 0s infinite normal none running pulse; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.2); border-radius: 30px; padding: 8px 20px;">
+          <i class="fas fa-check-circle"></i> AdSense Approved
+        </span>
+        <span style="animation: 2s ease 0.5s infinite normal none running pulse; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.2); border-radius: 30px; padding: 8px 20px;">
+          <i class="fas fa-lock"></i> Legal Protection
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Contact Card -->
+  <div class="contact-card" style="animation: 1s ease-out 0s 1 floatUp; background: white; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px; margin-bottom: 30px; padding: 25px; transform: translateY(0px); transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);">
+    <h2 style="border-bottom: 2px dashed rgb(238, 238, 238); color: ${primaryColor}; margin-top: 0px; padding-bottom: 10px;">
+      <i class="fas fa-id-card"></i> Contact Information
+    </h2>
+    <div style="display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+      <div>
+        <h3 style="color: ${secondaryColor}; margin-bottom: 5px;"><i class="fas fa-user"></i> Owner</h3>
+        <p style="color: #555555;">${ownerName}</p>
+      </div>
+      <div>
+        <h3 style="color: ${secondaryColor}; margin-bottom: 5px;"><i class="fas fa-envelope"></i> Email</h3>
+        <p style="color: #555555;">${email}</p>
+      </div>
+      ${phone ? `
+      <div>
+        <h3 style="color: ${secondaryColor}; margin-bottom: 5px;"><i class="fas fa-phone"></i> Phone</h3>
+        <p style="color: #555555;">${phone}</p>
+      </div>
+      ` : ''}
+      <div>
+        <h3 style="color: ${secondaryColor}; margin-bottom: 5px;"><i class="fas fa-globe"></i> Website</h3>
+        <p style="color: #555555;">${siteName} (${website.replace(/^https?:\/\//, '')})</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Disclaimer Sections -->
+  <div class="disclaimer-content" style="position: relative; z-index: 1;">
+
+    <div class="disclaimer-section" style="animation: 1s ease-out 0s 1 rotateXIn; background: white; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 35px; margin-bottom: 30px; padding: 30px; transform-style: preserve-3d; transition: 0.5s;">
+      <h2 style="color: ${primaryColor}; margin-bottom: 20px; margin-top: 0px; position: relative;">
+        <span style="align-items: center; background: ${primaryColor}; border-radius: 50%; box-shadow: rgba(142, 45, 226, 0.4) 0px 5px 15px; color: white; display: inline-flex; height: 40px; justify-content: center; margin-right: 15px; width: 40px;">1</span>
+        General Disclaimer
+      </h2>
+      <div style="color: #555555; font-size: 16px; line-height: 1.8;">
+        <p>All content provided on <strong>${siteName}</strong> (${website}) is for informational purposes only. I, <strong>${ownerName}</strong>, make no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.</p>
+        <div style="background: rgba(142, 45, 226, 0.05); border-left: 4px solid ${primaryColor}; border-radius: 0px 8px 8px 0px; margin: 20px 0px; padding: 15px;">
+          <p style="margin: 0px;"><i class="fas fa-exclamation-triangle"></i> <strong>Important:</strong> I will not be liable for any errors or omissions in this information nor for the availability of this information.</p>
+        </div>
+        ${customMessage ? `
+        <div style="background: rgba(74, 0, 224, 0.05); border-radius: 10px; padding: 15px; margin-top: 20px;">
+          <p style="margin: 0; color: ${secondaryColor};"><i class="fas fa-info-circle"></i> <strong>Note:</strong> ${customMessage}</p>
+        </div>
+        ` : ''}
+      </div>
+    </div>
+
+    <div class="disclaimer-section" style="animation: 1s ease-out 0.2s 1 rotateXIn; background: white; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 35px; margin-bottom: 30px; padding: 30px; transform-style: preserve-3d; transition: 0.5s;">
+      <h2 style="color: ${primaryColor}; margin-bottom: 20px; margin-top: 0px; position: relative;">
+        <span style="align-items: center; background: ${primaryColor}; border-radius: 50%; box-shadow: rgba(142, 45, 226, 0.4) 0px 5px 15px; color: white; display: inline-flex; height: 40px; justify-content: center; margin-right: 15px; width: 40px;">2</span>
+        External Links Disclaimer
+      </h2>
+      <div style="color: #555555; font-size: 16px; line-height: 1.8;">
+        <p><strong>${siteName}</strong> may contain links to external websites that are not provided or maintained by or in any way affiliated with this website.</p>
+        <p>Please note that I do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</p>
+        <div style="background: rgba(255, 107, 107, 0.05); border-left: 4px solid #ff6b6b; border-radius: 0px 8px 8px 0px; margin: 20px 0px; padding: 15px;">
+          <p style="margin: 0px;"><i class="fas fa-exclamation-circle"></i> <strong>Warning:</strong> I strongly advise you to review the Privacy Policy and Terms of Service of any site you visit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer-section" style="animation: 1s ease-out 0.4s 1 rotateXIn; background: white; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 35px; margin-bottom: 30px; padding: 30px; transform-style: preserve-3d; transition: 0.5s;">
+      <h2 style="color: ${primaryColor}; margin-bottom: 20px; margin-top: 0px; position: relative;">
+        <span style="align-items: center; background: ${primaryColor}; border-radius: 50%; box-shadow: rgba(142, 45, 226, 0.4) 0px 5px 15px; color: white; display: inline-flex; height: 40px; justify-content: center; margin-right: 15px; width: 40px;">3</span>
+        Affiliate Disclosure
+      </h2>
+      <div style="color: #555555; font-size: 16px; line-height: 1.8;">
+        <p>Some of the links on <strong>${siteName}</strong> may be affiliate links. This means if you click on the link and purchase the item, I may receive an affiliate commission at no extra cost to you.</p>
+        <p>All opinions remain my own and I only recommend products or services I believe will add value to my readers.</p>
+        <div style="background: rgba(74, 0, 224, 0.05); border-radius: 10px; padding: 15px; margin-top: 20px;">
+          <p style="margin: 0; color: ${secondaryColor};"><i class="fas fa-hand-holding-usd"></i> <strong>Transparency:</strong> I believe in honesty and integrity. All affiliate relationships will be clearly disclosed.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer-section" style="animation: 1s ease-out 0.6s 1 rotateXIn; background: white; border-radius: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 35px; margin-bottom: 30px; padding: 30px; transform-style: preserve-3d; transition: 0.5s;">
+      <h2 style="color: ${primaryColor}; margin-bottom: 20px; margin-top: 0px; position: relative;">
+        <span style="align-items: center; background: ${primaryColor}; border-radius: 50%; box-shadow: rgba(142, 45, 226, 0.4) 0px 5px 15px; color: white; display: inline-flex; height: 40px; justify-content: center; margin-right: 15px; width: 40px;">4</span>
+        Content Liability
+      </h2>
+      <div style="color: #555555; font-size: 16px; line-height: 1.8;">
+        <p>I shall not be held responsible for any content that appears on your website. You agree to protect and defend me against all claims that may arise on your website.</p>
+        <p>No link(s) should appear on any website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
+        <div style="background: rgba(142, 45, 226, 0.05); border-left: 4px solid ${primaryColor}; border-radius: 0px 8px 8px 0px; margin: 20px 0px; padding: 15px;">
+          <p style="margin: 0px;"><i class="fas fa-gavel"></i> <strong>Legal Note:</strong> This disclaimer was created with the HafizVerse Disclaimer Generator.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Animated Footer -->
+  <div class="disclaimer-footer" style="animation: 1s ease-out 0s 1 fadeInUp; background: linear-gradient(135deg, ${secondaryColor}, ${primaryColor}); border-radius: 15px; box-shadow: rgba(74, 0, 224, 0.3) 0px 10px 30px; color: white; padding: 30px; text-align: center;">
+    <h3 style="margin-bottom: 15px; margin-top: 0px;"><i class="fas fa-copyright"></i> ${new Date().getFullYear()} ${siteName}</h3>
+    <p style="margin-bottom: 0px; opacity: 0.9;">Created with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by ${ownerName}</p>
+  </div>
+</div>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  @keyframes flipIn {
+    0% { transform: rotateX(90deg); opacity: 0; }
+    100% { transform: rotateX(0); opacity: 1; }
+  }
+  
+  @keyframes floatUp {
+    0% { transform: translateY(50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes rotateXIn {
+    from { transform: rotateX(90deg); opacity: 0; }
+    to { transform: rotateX(0); opacity: 1; }
+  }
+  
+  @keyframes fadeInUp {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>`;
+            }
+            
+            // Generate full HTML page function
+            function generateFullHTMLPage(ownerName, email, phone, website, siteName, primaryColor, secondaryColor, customMessage, disclaimerHTML) {
+                return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer | ${siteName}</title>
+    <meta name="description" content="Official disclaimer page for ${siteName} - ${customMessage || 'Legal information and terms of use'}">
+    <meta name="keywords" content="disclaimer, legal, ${siteName}, terms of use, privacy policy">
+    <meta name="author" content="${ownerName}">
+    <link rel="canonical" href="${website}/disclaimer">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="${website}/disclaimer">
+    <meta property="og:title" content="Disclaimer | ${siteName}">
+    <meta property="og:description" content="Official disclaimer page for ${siteName}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="${website}/disclaimer">
+    <meta property="twitter:title" content="Disclaimer | ${siteName}">
+    <meta property="twitter:description" content="Official disclaimer page for ${siteName}">
+    
+    ${disclaimerHTML.split('<style>')[0]}</style>
+</head>
+<body style="background-color: #f5f7ff; margin: 0; padding: 20px 0;">
+    ${disclaimerHTML.split('</style>')[1]}
+</body>
+</html>`;
+            }
+            
+            // SEO Analysis function
+            function runSEOAnalysis(ownerName, siteName, website, disclaimerHTML) {
+                let score = 0;
+                let recommendations = [];
+                
+                // Check for required elements
+                if(ownerName && ownerName !== 'Your Name') score += 15;
+                if(siteName && siteName !== 'YourSiteName') score += 15;
+                if(website && website !== 'https://yourwebsite.com') score += 15;
+                
+                // Check content length
+                const textContent = disclaimerHTML.replace(/<[^>]*>/g, '');
+                if(textContent.length > 1000) score += 15;
+                if(textContent.length > 1500) score += 10;
+                
+                // Check for keywords
+                const keywords = ['disclaimer', 'liability', 'legal', 'terms', 'affiliate'];
+                let keywordCount = 0;
+                keywords.forEach(keyword => {
+                    if(textContent.toLowerCase().includes(keyword)) keywordCount++;
+                });
+                score += (keywordCount / keywords.length) * 20;
+                
+                // Check for structured content
+                if(disclaimerHTML.includes('<h2') && disclaimerHTML.includes('</h2>')) score += 10;
+                
+                // Generate recommendations
+                if(ownerName === 'Your Name') {
+                    recommendations.push('Add your real name or company name for better credibility');
+                }
+                
+                if(siteName === 'YourSiteName') {
+                    recommendations.push('Customize your website name for a professional look');
+                }
+                
+                if(website === 'https://yourwebsite.com') {
+                    recommendations.push('Add your actual website URL for proper attribution');
+                }
+                
+                if(textContent.length < 1000) {
+                    recommendations.push('Consider adding more detailed legal information (currently ' + textContent.length + ' characters)');
+                }
+                
+                if(keywordCount < 3) {
+                    recommendations.push('Add more legal keywords for better SEO (found ' + keywordCount + ' of 5 recommended keywords)');
+                }
+                
+                // Display results
+                const seoResults = document.getElementById('seoResults');
+                const seoScore = document.getElementById('seoScore');
+                const scoreValue = document.getElementById('scoreValue');
+                const seoProgress = document.getElementById('seoProgress');
+                
+                seoScore.style.display = 'block';
+                scoreValue.textContent = Math.min(Math.round(score), 100);
+                seoProgress.style.width = Math.min(Math.round(score), 100) + '%';
+                
+                let resultsHTML = '<h4 style="color: ' + (score >= 70 ? '#28a745' : score >= 40 ? '#ffc107' : '#dc3545') + ';">SEO Recommendations</h4>';
+                
+                if(recommendations.length > 0) {
+                    resultsHTML += '<ul style="margin-top: 1rem; padding-left: 1.5rem;">';
+                    recommendations.forEach(rec => {
+                        resultsHTML += '<li style="margin-bottom: 0.5rem;">' + rec + '</li>';
+                    });
+                    resultsHTML += '</ul>';
+                } else {
+                    resultsHTML += '<p style="color: #28a745;"><i class="fas fa-check-circle"></i> Great job! Your disclaimer meets all basic SEO requirements.</p>';
+                }
+                
+                // Add positive points
+                resultsHTML += '<h4 style="margin-top: 1.5rem; color: #28a745;">What\'s Working Well</h4>';
+                resultsHTML += '<ul style="margin-top: 1rem; padding-left: 1.5rem;">';
+                
+                if(ownerName && ownerName !== 'Your Name') {
+                    resultsHTML += '<li style="margin-bottom: 0.5rem;">Owner name is properly set</li>';
+                }
+                
+                if(siteName && siteName !== 'YourSiteName') {
+                    resultsHTML += '<li style="margin-bottom: 0.5rem;">Website name is properly set</li>';
+                }
+                
+                if(website && website !== 'https://yourwebsite.com') {
+                    resultsHTML += '<li style="margin-bottom: 0.5rem;">Website URL is properly set</li>';
+                }
+                
+                if(textContent.length > 1000) {
+                    resultsHTML += '<li style="margin-bottom: 0.5rem;">Detailed content (' + textContent.length + ' characters)</li>';
+                }
+                
+                if(keywordCount >= 3) {
+                    resultsHTML += '<li style="margin-bottom: 0.5rem;">Good keyword coverage (' + keywordCount + ' of 5)</li>';
+                }
+                
+                resultsHTML += '</ul>';
+                
+                seoResults.innerHTML = resultsHTML;
+                
+                // Switch to SEO tab
+                document.querySelector('.tab[data-tab="seo"]').click();
+            }
+        });
+    </script>
+</body>
+</html>
